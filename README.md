@@ -17,11 +17,11 @@ You will gain proficiency in the following tasks:
 
 ### Files
 
-[Time-Series Starter Notebook](Starter_Code/time_series_analysis.ipynb)
+[Time-Series Starter Notebook](Time_Series_Analysis/time_series_analysis.ipynb)
 
-[Linear Regression Starter Notebook](Starter_Code/regression_analysis.ipynb)
+[Linear Regression Starter Notebook](Time_Series_Analysis/regression_analysis.ipynb)
 
-[CAD/JPY Data CSV File](Starter_Code/cad_jpy.csv)
+[CAD/JPY Data CSV File](Time_Series_Analysis/cad_jpy.csv)
 
 - - -
 
