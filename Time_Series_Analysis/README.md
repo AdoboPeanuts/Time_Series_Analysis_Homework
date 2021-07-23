@@ -12,11 +12,11 @@
 
 ### Process and Workflow
 
-#### Time-Series Forecasting
+## Time-Series Forecasting
 
 In this notebook, I loaded the historical CAD-JPY exchange rate data and applied time series analysis and modelling to determine if there is any predictable behaviour.
 
-Outlined are the steps applied to complete the time series analysis:
+### Outlined are the steps applied to complete the time series analysis:
 
 
 1. Imported library for current project. 
@@ -65,13 +65,26 @@ Outlined are the steps applied to complete the time series analysis:
     fit (p < 0.05)?
 
     c. Plot the 5-day forecast of the volatility.
+
+### Q&A 
+
+Q1. Does this model perform better or worse on out-of-sample data as compared to in-sample data?
+
+    A: 
+        Results:
+
+        Out-of-Sample Root Mean Squared Error (RMSE): 0.6445805658569028
+
+        In-sample Root Mean Squared Error (RMSE): 0.841994632894117
+
+        Based on the results. The model performs better on the out-of-sample data compared to the in-sample data. Perfomance is better if you have a low RMSE. In this case, out-of-sample data has a lower RMSE as compared to the in-sample data. 
    
 
-#### Linear Regression Forecasting
+## Linear Regression Forecasting
 
 In this notebook, I built a Scikit-Learn linear regression model to predict CAD/JPY returns with *lagged* CAD/JPY futures returns and categorical calendar seasonal effects (e.g., day-of-week or week-of-year seasonal effects).
 
-Outlined are the steps applied to complete the linear regression:
+### Outlined are the steps applied to complete the linear regression:
 
 
 1. Imported library for current project. 
@@ -118,6 +131,20 @@ Outlined are the steps applied to complete the linear regression:
 
     d. Calculated in-sample root mean_squared_error (for comparison to out-of-sample)
 
+
+### Q&A
+
+Q1. Based on your time series analysis, would you buy the yen now?
+
+    A: Based on the time series analysis the price is expected to go below 80. Then it is not a good time to buy as it indicates that the JPY price appreciating. 
+
+Q2. Is the risk of the yen expected to increase or decrease?
+
+    A: Based on the Garch Model, the volatility is expected to increase over the next few days. 
+
+Q3. Based on the model evaluation, would you feel confident in using these models for trading?
+
+    A: Further evaluation is need to make a proper analysis. As of the moment, based on the data it is likely that the JPY price will appreciate compared to the Canadian dollar. Furthermore, both ARMA and ARIMA p values are higher than 0.05. I am not confident in using these models for trading.
 
 - - -
 
