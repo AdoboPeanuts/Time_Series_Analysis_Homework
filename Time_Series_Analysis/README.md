@@ -48,7 +48,7 @@ In this notebook, I loaded the historical CAD-JPY exchange rate data and applied
 
     c. Plotted the first 20 predictions vs the true values.
 
-    [Sample Plot](Images/20_day.png)
+![Sample Plot](Images/20_day.png)
 
 
 ### Q&A 
@@ -119,31 +119,25 @@ In this notebook, I built a Scikit-Learn linear regression model to predict CAD/
 
 ### Q&A
 
+
+![Time Series Plot](Images/times_series.png)
+
 Q1. Based on your time series analysis, would you buy the yen now?
 
-    A: 
-    
-    [Time Series Plot](Images/times_series.png)
+    A: Based on the time series analysis the price is expected to go below 80. Then it is not a good time to buy as it indicates that the JPY price appreciating. 
 
-    Based on the time series analysis the price is expected to go below 80. Then it is not a good time to buy as it indicates that the JPY price appreciating. 
+
+![Garch Model Plot](Images/garch_model.png)
 
 Q2. Is the risk of the yen expected to increase or decrease?
 
-    A: 
-    
-    [Garch Model Plot](Images/garch_model.png)
+    A: Based on the Garch Model, the volatility is expected to increase over the next few days. 
 
-    Based on the Garch Model, the volatility is expected to increase over the next few days. 
+![Arma Model Forecast](Images/arma.png) ![Arima Model Forecast](Images/arima.png)
 
 Q3. Based on the model evaluation, would you feel confident in using these models for trading?
 
-    A: 
-    
-    [Arma Model Forecast](Images/arma.png)
-
-    [Arima Model Forecast](Images/arima.png)
-
-    Further evaluation is needed to make a proper analysis. As of the moment, based on the data it is likely that the JPY price will appreciate compared to the Canadian dollar. Furthermore, both ARMA and ARIMA p values are higher than 0.05. I am not confident in using these models for trading.
+    A: Further evaluation is needed to make a proper analysis. As of the moment, based on the data it is likely that the JPY price will appreciate compared to the Canadian dollar. Furthermore, both ARMA and ARIMA p values are higher than 0.05. I am not confident in using these models for trading.
 
 - - -
 
