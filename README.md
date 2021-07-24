@@ -14,9 +14,9 @@
 
 - - -
 
-### Process and Workflow
+# Process and Workflow
 
-## Time-Series Forecasting
+## Regression Analysis: Seasonal Effects with Sklearn Linear Regression
 
 In this notebook, I loaded the historical CAD-JPY exchange rate data and applied time series analysis and modelling to determine if there is any predictable behaviour.
 
@@ -52,13 +52,13 @@ In this notebook, I loaded the historical CAD-JPY exchange rate data and applied
 
     c. Plotted the first 20 predictions vs the true values.
 
-
+![Sample Plot](Images/20_day.png)
 
 ### Q&A 
 
 Q1. Does this model perform better or worse on out-of-sample data as compared to in-sample data?
 
-![Sample Plot](Images/20_day.png)
+
    
     A:  Results:
 
@@ -69,7 +69,7 @@ Q1. Does this model perform better or worse on out-of-sample data as compared to
         Based on the results. The model performs better on the out-of-sample data compared to the in-sample data. Perfomance is better if you have a low RMSE. In this case, out-of-sample data has a lower RMSE as compared to the in-sample data. 
    
 
-## Linear Regression Forecasting
+## Return Forecasting: Time Series Analysis & Modelling with CAD-JPY Exchange rate data.
 
 In this notebook, I built a Scikit-Learn linear regression model to predict CAD/JPY returns with *lagged* CAD/JPY futures returns and categorical calendar seasonal effects (e.g., day-of-week or week-of-year seasonal effects).
 
