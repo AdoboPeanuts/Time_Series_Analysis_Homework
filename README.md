@@ -1,3 +1,7 @@
+# Unit 10 — A Yen for the Future
+
+![Yen Photo](Images/unit-10-readme-photo.png)
+
 - - -
 
 ### Files
@@ -48,9 +52,6 @@ In this notebook, I loaded the historical CAD-JPY exchange rate data and applied
 
     c. Plotted the first 20 predictions vs the true values.
 
-#
-
-![Sample Plot](Images/20_day.png)
 
 
 ### Q&A 
