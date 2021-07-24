@@ -48,6 +48,8 @@ In this notebook, I loaded the historical CAD-JPY exchange rate data and applied
 
     c. Plotted the first 20 predictions vs the true values.
 
+#
+
 ![Sample Plot](Images/20_day.png)
 
 
@@ -118,7 +120,6 @@ In this notebook, I built a Scikit-Learn linear regression model to predict CAD/
 
 
 ### Q&A
-
 
 ![Time Series Plot](Images/times_series.png)
 
